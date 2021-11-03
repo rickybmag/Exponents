@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Rmagdaleno\\.nuget\\packages\\": {}
+    "C:\\Users\\RRaczak\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rmagdaleno\\source\\repos\\Exponents\\Exponents\\Exponents.csproj",
+      "projectUniqueName": "C:\\Users\\RRaczak\\source\\repos\\DevBuild\\GC_BranchLab\\Exponents\\Exponents.csproj",
       "projectName": "Exponents",
-      "projectPath": "C:\\Users\\Rmagdaleno\\source\\repos\\Exponents\\Exponents\\Exponents.csproj",
-      "packagesPath": "C:\\Users\\Rmagdaleno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rmagdaleno\\source\\repos\\Exponents\\Exponents\\obj\\",
+      "projectPath": "C:\\Users\\RRaczak\\source\\repos\\DevBuild\\GC_BranchLab\\Exponents\\Exponents.csproj",
+      "packagesPath": "C:\\Users\\RRaczak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RRaczak\\source\\repos\\DevBuild\\GC_BranchLab\\Exponents\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rmagdaleno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RRaczak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

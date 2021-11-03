@@ -19,46 +19,52 @@ namespace Exponents
         {
             //Continues loop of whole operation
             bool goOn = true;
+            int num;
+            bool validNum = false;
             while (goOn == true)
             {
                 //Asks for input
-                int num = int.Parse((GetInput("Enter an integer")));
-                Console.WriteLine();
-                            
-                //Supposed to check for input validation. Can't get non-integers to work
-                bool validNum = Check(num);               
-
-                //Runs loop for operations if integer passes initial validation. Can't get formatting to work
-                if (validNum == true)
+                //**Rearranged code here to check for a positive number input
+                while (true)
                 {
-                    
-                    for(int i = 1; i <= num; i++)
-                    {                        
+                    if (int.TryParse(GetInput("Enter an integer"), out num))
+                    {
+                        if (Check(num))
+                        {
+                            validNum = true;
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("\n~INVALID INPUT: Please enter a non-negative whole number~");
+                    }
+                }
+                //Runs loop for operations if integer passes initial validation. Can't get formatting to work
+                if (validNum)
+                {
+
+                    for (int i = 1; i <= num; i++)
+                    {
                         string a = Convert.ToString(i);
                         string new1 = String.Format("{0, -20}", a);
                         Console.WriteLine(new1);
                     }
 
                     Console.WriteLine();
-                    for (int  j= 1;  j<= num; j++)
+                    for (int j = 1; j <= num; j++)
                     {
                         string b = Convert.ToString(getSquared(j));
-                        string.Format($"{b, 10}");                        
+                        string.Format($"{b,10}");
                     }
 
                     Console.WriteLine();
                     for (int k = 1; k <= num; k++)
                     {
                         string c = Convert.ToString(getCubed(k));
-                        string.Format(c, 30);                        
+                        string.Format(c, 30);
                     }
                 }
-                else
-                {
-                    validNum = false;
-                    Console.WriteLine($"Please insert a number");                    
-                }
-
                 goOn = Continue();
             }
         }
@@ -97,40 +103,43 @@ namespace Exponents
         //Squares the entered integer
         public static int getSquared(int num)
         {
-            int square = num * num;            
-            Console.WriteLine(square);
-            Convert.ToString(square);
-            return square;
+            //Added check call here to validate num within method
+            if (Check(num))
+            {
+                int square = num * num;
+                Console.WriteLine(square);
+                Convert.ToString(square);
+                return square;
+            }
+            return 0;
         }
 
         //Cubes the entered integer
         public static int getCubed(int num)
         {
-            int cube = num * num * num;
-            Console.WriteLine(cube);
-            Convert.ToString(cube);
+            //Added check call here to validate num within method
+            if (Check(num))
+            {
+                int cube = num * num * num;
+                Console.WriteLine(cube);
+                Convert.ToString(cube);
+                return cube;
+            }
+            return 0;
 
-            return cube;
         }
 
         //Supposed to check the integer for validation during initial entry. Can't get it to work
         public static bool Check(int valid)
         {
-            string v = Convert.ToString(valid);
-
             if (valid > 0)
             {
                 return true;
             }
-            else if (valid < 0)
-            {                                
-                return false;
-            }
-            else
-            {
-                Console.WriteLine("Please try again");
-                return false;
-            }
-        }        
+            //Removed extra if statement to check for negatives. 
+            Console.WriteLine("Please try again");
+            return false;
+
+        }
     }
 }
