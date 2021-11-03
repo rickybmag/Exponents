@@ -9,10 +9,22 @@ namespace Exponents
     {
         //Much of the validation for this program was within the
         //main entry point. Added redundant checking into methods
+        //
         //**Added to MAIN**
         //Validation for non-number entry line 28
         //Moved variables outside of loop line 21
         //Removed redundant check for postive whole number check line 74 
+        //
+        //**Added to getSquare**
+        //Added redundant Check method call. Will return zero if it does not pass. line 107
+        //
+        //**Added to getCubed**
+        //Added redundant Check method call. Will return zero if it does not pass. line 121
+        //
+        //**Added to Check**
+        //Removed redundant check for greater than zero line 139
+        //Removed extra else statement
+
 
         [Theory]
         [InlineData(2, 4)]
