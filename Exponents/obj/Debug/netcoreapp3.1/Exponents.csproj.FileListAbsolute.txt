@@ -12,3 +12,16 @@ C:\Users\Rmagdaleno\source\repos\Exponents\Exponents\obj\Debug\netcoreapp3.1\Exp
 C:\Users\Rmagdaleno\source\repos\Exponents\Exponents\obj\Debug\netcoreapp3.1\Exponents.dll
 C:\Users\Rmagdaleno\source\repos\Exponents\Exponents\obj\Debug\netcoreapp3.1\Exponents.pdb
 C:\Users\Rmagdaleno\source\repos\Exponents\Exponents\obj\Debug\netcoreapp3.1\Exponents.genruntimeconfig.cache
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.exe
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.deps.json
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.runtimeconfig.json
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.runtimeconfig.dev.json
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.dll
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\bin\Debug\netcoreapp3.1\Exponents.pdb
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.AssemblyInfoInputs.cache
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.AssemblyInfo.cs
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.csproj.CoreCompileInputs.cache
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.dll
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.pdb
+C:\Users\RRaczak\source\repos\DevBuild\GC_BranchLab\Exponents\obj\Debug\netcoreapp3.1\Exponents.genruntimeconfig.cache
